@@ -30,7 +30,7 @@ OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 PORT = int(os.getenv("PORT", 10000))
 WEBHOOK_URL = os.getenv("RENDER_EXTERNAL_URL")
 if not WEBHOOK_URL:
-    WEBHOOK_URL = "https://bomber-2hra.onrender.com"
+    WEBHOOK_URL = "https://bomber-1-q86d.onrender.com"
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
